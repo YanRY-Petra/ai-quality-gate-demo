@@ -7,7 +7,7 @@ import requests
 
 
 # TODO: 在这里填写你的 DeepSeek API Key
-API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-c07f0d2fd7464e6d8545e83aa30659ff")
+API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
 
 # DeepSeek Chat Completions API 端点（如有变更，请根据官方文档更新）
 DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
